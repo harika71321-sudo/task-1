@@ -1,0 +1,81 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: yellow;
+  color: blue;
+}
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+header nav a {
+  color: pink;
+  margin-left: 20px;
+  text-decoration: none;
+}
+header nav a:hover {
+  color: light blue;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+.hero .btn {
+  padding: 10px 20px;
+  background: light grey;
+  color: pink;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.hero .btn:hover {
+  background: light cream;
+  color: pink;
+}
+
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.about, .projects, .contact {
+  background: light cream;
+}
+.projects .project-card {
+  display: inline-block;
+  background: light gray;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+.projects .project-card:hover {
+  transform: scale(1.05);
+}
+s
+footer {
+  background: light grey;
+  color: pink;
+  text-align: center;
+  padding: 15px;
+}
